@@ -12,7 +12,7 @@
 	let isOpen = false;
 </script>
 
-<Nav pills>
+<Nav underline>
 	<NavItem>
 		<NavLink href="/about"><b>About</b></NavLink>
 	</NavItem>
@@ -58,8 +58,8 @@
 	b {
 		font-size: 1.2rem;
 		font-weight: 800;
-		margin-right: 1rem;
-		padding-left: 1rem;
+		margin-right: 0.25rem;
+		padding-left: 0.25rem;
 		/* letter-spacing: 0.1rem; */
 	}
 </style>
