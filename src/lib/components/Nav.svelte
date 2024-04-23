@@ -29,19 +29,6 @@
 		<NavLink href="/contact"><b>Contact</b></NavLink>
 	</NavItem>
 
-	<!-- <Dropdown theme="dark">
-		<DropdownToggle caret>Links</DropdownToggle>
-		<DropdownMenu end>
-			<DropdownItem header>Links</DropdownItem>
-			<DropdownItem divider />
-			<DropdownItem href="https://svelte.dev">Svelte</DropdownItem>
-			<DropdownItem divider />
-			<DropdownItem href="https://gsap.com">GSAP</DropdownItem>
-			<DropdownItem divider />
-			<DropdownItem href="https://web.dev">Web.dev</DropdownItem>
-		</DropdownMenu>
-	</Dropdown> -->
-
 	<Dropdown nav {isOpen} toggle={() => (isOpen = !isOpen)}>
 		<DropdownToggle nav caret><b>Links</b></DropdownToggle>
 		<DropdownMenu end>
@@ -60,6 +47,5 @@
 		font-weight: 800;
 		margin-right: 0.25rem;
 		padding-left: 0.25rem;
-		/* letter-spacing: 0.1rem; */
 	}
 </style>

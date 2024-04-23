@@ -1,5 +1,6 @@
 <script>
 	import Title from '$lib/components/Title.svelte';
+	import Image from '../../lib/components/Image.svelte';
 </script>
 
 <main>
@@ -9,7 +10,8 @@
 
 	<p><a href="mailto:example@example.com">example@example.com</a></p>
 
-	<img src="/logos/sitting-4.svg" alt="" />
+	<!-- <img src="/logos/sitting-4.svg" alt="" /> -->
+	<Image picture="/logos/sitting-4.svg" desc="logo" x="500" y="600" />
 </main>
 
 <style>
@@ -23,9 +25,5 @@
 
 	p {
 		margin-top: 4%;
-	}
-
-	img {
-		margin-top: -1rem;
 	}
 </style>

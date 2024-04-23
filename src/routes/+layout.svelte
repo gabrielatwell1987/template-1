@@ -1,12 +1,13 @@
 <script>
 	import '../app.css';
 	import Nav from '$lib/components/Nav.svelte';
+	import Image from '$lib/components/Image.svelte';
 </script>
 
 <main>
 	<div class="logo">
 		<a href="/">
-			<img src="/logos/test1.png" alt="logo" />
+			<Image picture="/logos/test1.png" desc="logo" x="300" y="50" />
 		</a>
 	</div>
 

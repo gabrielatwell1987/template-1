@@ -1,11 +1,12 @@
 <script>
-	import ButtonComp from '$lib/components/ButtonComp.svelte';
+	import Button from '$lib/components/ButtonComp.svelte';
 	import Title from '$lib/components/Title.svelte';
+	import Image from '$lib/components/Image.svelte';
 </script>
 
 <main>
 	<div class="logo">
-		<img src="/logos/sitting-7.svg" alt="logo" />
+		<Image picture="/logos/sitting-7.svg" desc="logo" x="700" y="800" />
 	</div>
 
 	<section class="hero">
@@ -20,7 +21,7 @@
 		</p>
 
 		<div class="button">
-			<ButtonComp title="Projects" href="/projects" />
+			<Button title="Projects" href="/projects" />
 		</div>
 	</section>
 </main>
@@ -33,10 +34,6 @@
 		background-color: #f0f0f0;
 		padding: 1rem;
 		position: relative;
-	}
-
-	img {
-		height: 45rem;
 	}
 
 	.logo {

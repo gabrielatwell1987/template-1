@@ -1,6 +1,7 @@
 <script>
 	import Title from '$lib/components/Title.svelte';
 	import OffCanvas from '$lib/components/OffCanvas.svelte';
+	import Image from '$lib/components/Image.svelte';
 </script>
 
 <h1><Title title="about" /></h1>
@@ -11,8 +12,10 @@
 		skills. You can also post a link to your resume or CV. You can also include social media links.
 	</p>
 
+	<p>You can also include testimonials and linkedIn links.</p>
+
 	<div class="two">
-		<img src="/logos/standing-3.svg" height="650px" alt="" />
+		<Image picture="/logos/standing-3.svg" desc="logo" x="500" y="650" />
 	</div>
 
 	<div class="three">
@@ -21,20 +24,16 @@
 </main>
 
 <style>
-	img {
-		max-width: 100%;
-		margin: -20% 0 0 0;
-	}
-
 	h1 {
 		text-align: right;
 		margin: 5rem 10rem 0 0;
 	}
 
 	p {
-		margin: 5% 10rem 0 auto;
+		margin: 2% 13% 0 auto;
 		width: 50%;
-		line-height: 2.75;
+		line-height: 1.75;
+		text-align: right;
 	}
 
 	main {
@@ -46,13 +45,15 @@
 		position: absolute;
 		top: -100%;
 		left: 6%;
-		width: 50%;
+		max-width: 100%;
+		margin: -5% 0 0 0;
 	}
 
 	.three {
 		position: absolute;
 		top: 200%;
-		left: 89%;
-		transform: translate(-89%, -200%);
+		right: 12%;
+		transform: translate(-20%, -200%);
+		margin-top: 3%;
 	}
 </style>

@@ -28,7 +28,7 @@
 		max-width: 100%;
 		width: 26rem;
 		border-radius: 1rem;
-		margin: 10rem 3rem 2rem 0;
+		margin: 5% 3rem 2rem 0;
 		object-fit: cover;
 	}
 
