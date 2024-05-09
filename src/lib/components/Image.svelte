@@ -1,11 +1,11 @@
 <script>
-	export let picture;
-	export let desc;
-	export let x;
-	export let y;
+	export let src;
+	export let alt;
+	export let width;
+	export let height;
 </script>
 
-<img src={picture} alt={desc} width={x} height={y} />
+<img {src} {alt} {width} {height} />
 
 <style>
 	img {
