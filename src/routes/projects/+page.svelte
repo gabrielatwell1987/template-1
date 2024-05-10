@@ -66,12 +66,12 @@
 
 	h1 {
 		text-align: center;
-		margin: 5rem 0 -10rem 0;
+		margin: 10% 0 -1rem 4%;
 	}
 
 	.one {
 		position: absolute;
-		top: 0;
+		top: -5%;
 		left: 20rem;
 	}
 

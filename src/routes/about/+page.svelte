@@ -26,7 +26,7 @@
 <style>
 	h1 {
 		text-align: right;
-		margin: 5rem 10rem 0 0;
+		margin: 10% 10rem 0 0;
 	}
 
 	p {
